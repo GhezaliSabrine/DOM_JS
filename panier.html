@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./PN.css" />
+    <title>Panier</title>
+  </head>
+
+  <!--For button retour in principal page--------------------------------------------->
+  <body>
+    <button class="Acceuil">
+      <a href="./Acceuil.html">Acceuil</a>
+    </button>
+
+<!--For total price------------------------------------------------------------------>
+<h1 id="total">Total Price : 0 </h1>
+
+<!--For the atrticls (price,add,del...)---------------------------------------------->
+<div class="cards">
+  <div class="card" style="width: 18rem;">
+    <img
+      src="1.jpg"
+      class="image"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">
+        Stan smith
+      </h5>
+      <h6 class="price">15769 DZA</h6>
+      <button type="button" class="btn btn-outline-danger">-</button>
+      <span class="qte">0</span>
+      <button type="button" class="btn btn-outline-success">
+        +
+      </button>
+    </div>
+    <div class="icons">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-trash"></i>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img
+      src="6.jpg"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">Bottine de trekking</h5>
+      <h6 class="price">109595 DZA</h6>
+      <button type="button" class="btn btn-outline-danger">-</button>
+      <span class="qte">0</span>
+      <button type="button" class="btn btn-outline-success">
+        +
+      </button>
+    </div>
+    <div class="icons">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-trash"></i>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img
+      src="7.jpg"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">Salomès</h5>
+      <h6 class="price">197115 DZA</h6>
+      <button type="button" class="btn btn-outline-danger">-</button>
+      <span class="qte">0</span>
+      <button type="button" class="btn btn-outline-success">
+        +
+      </button>
+    </div>
+    <div class="icons">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-trash"></i>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img
+      src="8.jpg"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">Sandales en cuir</h5>
+      <h6 class="price">41788 DZA</h6>
+      <button type="button" class="btn btn-outline-danger">-</button>
+      <span class="qte">0</span>
+      <button type="button" class="btn btn-outline-success">
+        +
+      </button>
+    </div>
+    
+<!-- For button Like & remove--------------------------------------------------------->
+    <div class="icons">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-trash"></i>
+    </div>
+  </div>
+
+<!------------------------------------------------------------------------------------>
+<script type="text/javascript" src="./PN.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
